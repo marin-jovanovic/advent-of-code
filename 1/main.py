@@ -1,5 +1,5 @@
-file = open("1/input.txt", "r")
-lines = list();
+file = open("input.txt", "r")
+lines = list()
 
 [lines.append(int(i[:-1])) for i in file.readlines()]
 
