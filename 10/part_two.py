@@ -8,7 +8,6 @@ print(lines)
 start_index_list = [x for x, (i, j) in enumerate(zip(lines[:-1], lines[1:])) if i + 3 == j]
 print(start_index_list)
 
-
 result = 1
 i = -1
 for j in start_index_list:
