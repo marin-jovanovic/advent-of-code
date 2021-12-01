@@ -1,0 +1,2 @@
+a = open("input.txt").read().split()
+print(len([1 for i, v in enumerate(open("input.txt").read().split()[:-2]) if (int(a[i - 1]) + int(a[i]) + int(a[i + 1]) < int(v) + int(a[i + 1]) + int(a[i + 2]) )]))
